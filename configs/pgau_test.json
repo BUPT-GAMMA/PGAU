@@ -1,0 +1,21 @@
+{
+  "checkpoint": "runs/pgau/pgau_circuitnet/best.pth",
+  "test_csv": "processed/maps/test.csv",
+  "dataroot": null,
+  "save_dir": null,
+  "batch_size": 4,
+  "num_workers": 4,
+  "in_channels": 11,
+  "out_channels": 1,
+  "base_channels": 64,
+  "up_mode": "bilinear",
+  "final_activation": null,
+  "model_type": "pgau",
+  "use_attention": true,
+  "target_scale": 1000.0,
+  "metric_scale": 1.0,
+  "cpu": false,
+  "gpu": null,
+  "amp": false,
+  "save_pred": false
+}

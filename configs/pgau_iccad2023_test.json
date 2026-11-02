@@ -1,0 +1,21 @@
+{
+  "checkpoint": "runs/pgau_iccad2023/pgau_iccad2023/best.pth",
+  "test_csv": "processed/iccad2023/test.csv",
+  "dataroot": null,
+  "save_dir": null,
+  "batch_size": 4,
+  "num_workers": 4,
+  "model_type": "pgau",
+  "in_channels": 3,
+  "out_channels": 1,
+  "base_channels": 64,
+  "up_mode": "bilinear",
+  "use_attention": true,
+  "final_activation": null,
+  "target_scale": 1000.0,
+  "metric_scale": 1000.0,
+  "cpu": false,
+  "gpu": null,
+  "amp": false,
+  "save_pred": false
+}
